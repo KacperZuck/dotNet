@@ -1,4 +1,7 @@
+using System.ComponentModel;
 using Microservice_app.Catalog.Service.Dto;
+using Microservice_app.Catalog.Service.Model;
+using Microservice_app.Catalog.Service.Repository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Microservice_app.Catalog.Service.Controller
@@ -7,24 +10,19 @@ namespace Microservice_app.Catalog.Service.Controller
     [Route("items")]    // http:// ... /items
     public class ItemsController : ControllerBase
     {
-        private static readonly List<ItemDto> items = new()
-        {
-            new ItemDto(Guid.NewGuid(), "Name1", "des1", 10, DateTimeOffset.Now ),
-            new ItemDto(Guid.NewGuid(), "Name2", "des2", 20, DateTimeOffset.Now ),
-            new ItemDto(Guid.NewGuid(), "Name3", "des3", 30, DateTimeOffset.Now ),
-            new ItemDto(Guid.NewGuid(), "Name4", "des4", 40, DateTimeOffset.Now )
-        };
+        private readonly ItemRepo itemRepo = new(); // metody sa ASYNCHRONICZNE !!!! wiec tutaj tez trzeba zamienic
 
         [HttpGet]  
-        public IEnumerable<ItemDto> Get()
+        public async Task<IEnumerable<ItemDto>> Get()
         {
+            var items = (await itemRepo.GetAllAsync()).Select(item => item.AsDto());
             return items;
         }
 
         [HttpGet("{id}")]
-        public ActionResult<ItemDto> GetById(Guid id)
+        public async Task<ActionResult<ItemDto>> GetById(Guid id)
         {
-            var item = items.SingleOrDefault(x => x.id == id);
+            var item = (await itemRepo.GetItemAsync(id)).AsDto();
 
             if (item == null)
                 return NotFound();
@@ -33,46 +31,43 @@ namespace Microservice_app.Catalog.Service.Controller
         }
 
         [HttpPost]
-        public ActionResult<ItemDto> Post(CreatedItemDto createdItemDto)
+        public async Task<ActionResult<ItemDto>> Post(CreatedItemDto createdItemDto)
         {
-            var item = new ItemDto(
-                Guid.NewGuid(),
-                createdItemDto.name,
-                createdItemDto.description,
-                createdItemDto.price,
-                DateTimeOffset.Now
-            );
+            var item = new Item
+            {
+                id = Guid.NewGuid(),
+                name = createdItemDto.name,
+                description = createdItemDto.description,
+                price = createdItemDto.price,
+                createdDate = DateTimeOffset.UtcNow
+            };
 
-            items.Add(item);
+            await itemRepo.CreateItemAsync(item);
 
             return CreatedAtAction(nameof(GetById), new { id = item.id }, item);
         }
 
         [HttpPut("{id}")]
-        public ActionResult<ItemDto> Put(Guid id, UpdateItemDto updateItemDto)
+        public async Task<ActionResult<ItemDto>> Put(Guid id, UpdateItemDto updateItemDto)
         {
-            var item = items.Where(x => x.id == id).SingleOrDefault();
-
+            var item = await itemRepo.GetItemAsync(id);
             if(item == null){ return NotFound();}
 
-            var newItem = item with
-            {
-                name = updateItemDto.name,
-                description = updateItemDto.description,
-                price = updateItemDto.price
-            };
-
-            var index = items.FindIndex(item => item.id == id );
-            items[index] = newItem;
-
+            item.name = updateItemDto.name;
+            item.price = updateItemDto.price;
+            item.description = updateItemDto.description;
+            await itemRepo.UpdateItemAsync(item);
+            
             return Ok();
         }
 
         [HttpDelete("{id}")]
-        public ActionResult<ItemDto> Delete(Guid id)
+        public async Task<ActionResult<ItemDto>> Delete(Guid id)
         {
-            var index = items.FindIndex(item => item.id == id);
-            items.RemoveAt(index);
+            var item = await itemRepo.GetItemAsync(id);
+            if (item == null){ return NotFound();}
+            
+            await itemRepo.DeleteItemAsync(item);
         
             return Ok();
         }
