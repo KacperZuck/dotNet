@@ -10,8 +10,12 @@ namespace Microservice_app.Catalog.Service.Controller
     [Route("items")]    // http:// ... /items
     public class ItemsController : ControllerBase
     {
-        private readonly ItemRepo itemRepo = new(); // metody sa ASYNCHRONICZNE !!!! wiec tutaj tez trzeba zamienic
+        private readonly IRepo<Item> itemRepo; // metody sa ASYNCHRONICZNE !!!! wiec tutaj tez trzeba zamienic
 
+        public ItemsController(IRepo<Item> itemRepo)
+        {
+            this.itemRepo = itemRepo;
+        }
         [HttpGet]  
         public async Task<IEnumerable<ItemDto>> Get()
         {

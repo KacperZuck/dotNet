@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4HSvK0TXocY=",
+  "dgSpecHash": "Ay3jZIC9dso=",
   "success": true,
-  "projectFilePath": "C:\\Users\\zucek\\Desktop\\LSEG\\Microservice_app\\src\\Microservice_app.Catalog.Service\\Microservice_app.Catalog.Service.csproj",
+  "projectFilePath": "C:\\Users\\zucek\\Desktop\\LSEG\\Microservice_app.Catalog\\src\\Microservice_app.Catalog.Service\\Microservice_app.Catalog.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zucek\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\zucek\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",

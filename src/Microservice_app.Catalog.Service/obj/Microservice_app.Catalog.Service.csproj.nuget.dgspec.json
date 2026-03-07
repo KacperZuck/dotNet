@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zucek\\Desktop\\LSEG\\Microservice_app\\src\\Microservice_app.Catalog.Service\\Microservice_app.Catalog.Service.csproj": {}
+    "C:\\Users\\zucek\\Desktop\\LSEG\\Microservice_app.Catalog\\src\\Microservice_app.Catalog.Service\\Microservice_app.Catalog.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zucek\\Desktop\\LSEG\\Microservice_app\\src\\Microservice_app.Catalog.Service\\Microservice_app.Catalog.Service.csproj": {
+    "C:\\Users\\zucek\\Desktop\\LSEG\\Microservice_app.Catalog\\src\\Microservice_app.Catalog.Service\\Microservice_app.Catalog.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zucek\\Desktop\\LSEG\\Microservice_app\\src\\Microservice_app.Catalog.Service\\Microservice_app.Catalog.Service.csproj",
+        "projectUniqueName": "C:\\Users\\zucek\\Desktop\\LSEG\\Microservice_app.Catalog\\src\\Microservice_app.Catalog.Service\\Microservice_app.Catalog.Service.csproj",
         "projectName": "Microservice_app.Catalog.Service",
-        "projectPath": "C:\\Users\\zucek\\Desktop\\LSEG\\Microservice_app\\src\\Microservice_app.Catalog.Service\\Microservice_app.Catalog.Service.csproj",
+        "projectPath": "C:\\Users\\zucek\\Desktop\\LSEG\\Microservice_app.Catalog\\src\\Microservice_app.Catalog.Service\\Microservice_app.Catalog.Service.csproj",
         "packagesPath": "C:\\Users\\zucek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zucek\\Desktop\\LSEG\\Microservice_app\\src\\Microservice_app.Catalog.Service\\obj\\",
+        "outputPath": "C:\\Users\\zucek\\Desktop\\LSEG\\Microservice_app.Catalog\\src\\Microservice_app.Catalog.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
