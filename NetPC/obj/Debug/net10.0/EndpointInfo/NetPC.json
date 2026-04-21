@@ -1,0 +1,886 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "NetPC | v1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://localhost:7136"
+    },
+    {
+      "url": "http://localhost:5251"
+    }
+  ],
+  "paths": {
+    "/api/Contact": {
+      "get": {
+        "tags": [
+          "Contact"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ContactDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ContactDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ContactDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Contact"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateContactDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateContactDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateContactDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContactDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContactDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContactDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Contact/{id}": {
+      "get": {
+        "tags": [
+          "Contact"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContactDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContactDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContactDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Contact"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContactDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContactDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContactDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Contact"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DBContext"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DBContext"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DBContext"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AutoTransactionBehavior": {
+        "type": "integer"
+      },
+      "CascadeTiming": {
+        "type": "integer"
+      },
+      "Categories": {
+        "type": "integer"
+      },
+      "ChangeTracker": {
+        "required": [
+          "context"
+        ],
+        "type": "object",
+        "properties": {
+          "autoDetectChangesEnabled": {
+            "type": "boolean"
+          },
+          "lazyLoadingEnabled": {
+            "type": "boolean"
+          },
+          "queryTrackingBehavior": {
+            "$ref": "#/components/schemas/QueryTrackingBehavior"
+          },
+          "deleteOrphansTiming": {
+            "$ref": "#/components/schemas/CascadeTiming"
+          },
+          "cascadeDeleteTiming": {
+            "$ref": "#/components/schemas/CascadeTiming"
+          },
+          "context": {
+            "$ref": "#/components/schemas/DbContext"
+          },
+          "debugView": {
+            "$ref": "#/components/schemas/DebugView"
+          }
+        }
+      },
+      "CompanyCategories": {
+        "type": "integer"
+      },
+      "Contact": {
+        "required": [
+          "name",
+          "surname",
+          "email"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string"
+          },
+          "surname": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "category": {
+            "$ref": "#/components/schemas/Categories"
+          },
+          "company": {
+            "$ref": "#/components/schemas/CompanyCategories"
+          },
+          "otherCategory": {
+            "type": "string"
+          },
+          "phone_Number": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "birth_Date": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      },
+      "ContactDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string"
+          },
+          "surname": {
+            "type": "string"
+          },
+          "phone": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "email": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          }
+        }
+      },
+      "CreateContactDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "surname": {
+            "type": "string"
+          },
+          "phone": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "email": {
+            "type": "string"
+          },
+          "category": {
+            "$ref": "#/components/schemas/Categories"
+          },
+          "company": {
+            "$ref": "#/components/schemas/CompanyCategories"
+          },
+          "otherCategory": {
+            "type": "string"
+          }
+        }
+      },
+      "DatabaseFacade": {
+        "type": "object",
+        "properties": {
+          "currentTransaction": {
+            "$ref": "#/components/schemas/IDbContextTransaction"
+          },
+          "autoTransactionsEnabled": {
+            "type": "boolean"
+          },
+          "autoTransactionBehavior": {
+            "$ref": "#/components/schemas/AutoTransactionBehavior"
+          },
+          "autoSavepointsEnabled": {
+            "type": "boolean"
+          },
+          "providerName": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      },
+      "DbContext": {
+        "type": "object",
+        "properties": {
+          "database": {
+            "$ref": "#/components/schemas/DatabaseFacade"
+          },
+          "changeTracker": {
+            "$ref": "#/components/schemas/ChangeTracker"
+          },
+          "model": {
+            "$ref": "#/components/schemas/IModel"
+          },
+          "contextId": {
+            "$ref": "#/components/schemas/DbContextId"
+          }
+        }
+      },
+      "DBContext": {
+        "type": "object",
+        "properties": {
+          "contacts": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Contact"
+            }
+          },
+          "userRoles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/IdentityUserRoleOfstring"
+            }
+          },
+          "roles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/IdentityRole"
+            }
+          },
+          "roleClaims": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/IdentityRoleClaimOfstring"
+            }
+          },
+          "users": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/IdentityUser"
+            }
+          },
+          "userClaims": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/IdentityUserClaimOfstring"
+            }
+          },
+          "userLogins": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/IdentityUserLoginOfstring"
+            }
+          },
+          "userTokens": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/IdentityUserTokenOfstring"
+            }
+          },
+          "userPasskeys": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/IdentityUserPasskeyOfstring"
+            }
+          },
+          "database": {
+            "$ref": "#/components/schemas/DatabaseFacade"
+          },
+          "changeTracker": {
+            "$ref": "#/components/schemas/ChangeTracker"
+          },
+          "model": {
+            "$ref": "#/components/schemas/IModel"
+          },
+          "contextId": {
+            "$ref": "#/components/schemas/DbContextId"
+          }
+        }
+      },
+      "DbContextId": {
+        "type": "object",
+        "properties": {
+          "instanceId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "lease": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          }
+        }
+      },
+      "DebugView": {
+        "type": "object",
+        "properties": {
+          "longView": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "shortView": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      },
+      "IConstructorBindingFactory": {
+        "type": "object"
+      },
+      "IDbContextTransaction": {
+        "type": "object",
+        "properties": {
+          "transactionId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "supportsSavepoints": {
+            "type": "boolean"
+          }
+        }
+      },
+      "IdentityPasskeyData": {
+        "type": "object",
+        "properties": {
+          "publicKey": {
+            "type": "string",
+            "format": "byte"
+          },
+          "name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "signCount": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "uint32"
+          },
+          "transports": {
+            "type": [
+              "null",
+              "array"
+            ],
+            "items": {
+              "type": "string"
+            }
+          },
+          "isUserVerified": {
+            "type": "boolean"
+          },
+          "isBackupEligible": {
+            "type": "boolean"
+          },
+          "isBackedUp": {
+            "type": "boolean"
+          },
+          "attestationObject": {
+            "type": "string",
+            "format": "byte"
+          },
+          "clientDataJson": {
+            "type": "string",
+            "format": "byte"
+          }
+        }
+      },
+      "IdentityRole": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "normalizedName": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "concurrencyStamp": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      },
+      "IdentityRoleClaimOfstring": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "roleId": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "claimType": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "claimValue": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      },
+      "IdentityUser": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "userName": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "normalizedUserName": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "email": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "normalizedEmail": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "emailConfirmed": {
+            "type": "boolean"
+          },
+          "passwordHash": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "securityStamp": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "concurrencyStamp": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "phoneNumber": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "phoneNumberConfirmed": {
+            "type": "boolean"
+          },
+          "twoFactorEnabled": {
+            "type": "boolean"
+          },
+          "lockoutEnd": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          },
+          "lockoutEnabled": {
+            "type": "boolean"
+          },
+          "accessFailedCount": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          }
+        }
+      },
+      "IdentityUserClaimOfstring": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "userId": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "claimType": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "claimValue": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      },
+      "IdentityUserLoginOfstring": {
+        "type": "object",
+        "properties": {
+          "loginProvider": {
+            "type": "string"
+          },
+          "providerKey": {
+            "type": "string"
+          },
+          "providerDisplayName": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "userId": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      },
+      "IdentityUserPasskeyOfstring": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "credentialId": {
+            "type": "string",
+            "format": "byte"
+          },
+          "data": {
+            "$ref": "#/components/schemas/IdentityPasskeyData"
+          }
+        }
+      },
+      "IdentityUserRoleOfstring": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "roleId": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      },
+      "IdentityUserTokenOfstring": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "loginProvider": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "value": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      },
+      "IModel": {
+        "type": "object",
+        "properties": {
+          "modelDependencies": {
+            "$ref": "#/components/schemas/RuntimeModelDependencies"
+          },
+          "modelId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        }
+      },
+      "IParameterBindingFactories": {
+        "type": "object"
+      },
+      "ITypeMappingSource": {
+        "type": "object"
+      },
+      "QueryTrackingBehavior": {
+        "type": "integer"
+      },
+      "RuntimeModelDependencies": {
+        "required": [
+          "typeMappingSource",
+          "constructorBindingFactory",
+          "parameterBindingFactories"
+        ],
+        "type": "object",
+        "properties": {
+          "typeMappingSource": {
+            "$ref": "#/components/schemas/ITypeMappingSource"
+          },
+          "constructorBindingFactory": {
+            "$ref": "#/components/schemas/IConstructorBindingFactory"
+          },
+          "parameterBindingFactories": {
+            "$ref": "#/components/schemas/IParameterBindingFactories"
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Contact"
+    }
+  ]
+}

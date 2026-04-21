@@ -1,0 +1,39 @@
+@NetPC_HostAddress = http://localhost:5251/api/contact
+
+GET {{NetPC_HostAddress}}/api/contact
+Accept: application/json
+
+###
+GET https://localhost:7136/api/contact
+
+
+###
+GET https://localhost:7136/api/contact/5ad4dbad-6258-4474-ba94-5d92ebf1625e
+
+###
+POST https://localhost:7136/api/contact
+Content-Type: application/json
+
+{
+  "name": "Jan",
+  "surname": "Kowalski",
+  "email": "jan@test.pl",
+  "phone": "123456789",
+  "category": 0,
+  "company": 0,
+  "otherCategory": ""
+}
+
+###
+PUT https://localhost:7136/api/contact/5ad4dbad-6258-4474-ba94-5d92ebf1625e
+Content-Type: application/json
+
+{
+  "name": "Janusz",
+  "surname": "Nowak",
+  "email": "janusz@test.pl",
+  "phone": "999999999"
+}
+
+###
+DELETE https://localhost:7136/api/contact/PUT_GUID
