@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zucek\\source\\repos\\NetPC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{011C3C0B-C232-30B6-4DE4-FF5D290FCE2B}|NetPC\\NetPC.csproj|c:\\users\\zucek\\source\\repos\\netpc\\netpc\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{011C3C0B-C232-30B6-4DE4-FF5D290FCE2B}|NetPC\\NetPC.csproj|solutionrelative:netpc\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{011C3C0B-C232-30B6-4DE4-FF5D290FCE2B}|NetPC\\NetPC.csproj|c:\\users\\zucek\\source\\repos\\netpc\\netpc\\data\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{011C3C0B-C232-30B6-4DE4-FF5D290FCE2B}|NetPC\\NetPC.csproj|solutionrelative:netpc\\data\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{011C3C0B-C232-30B6-4DE4-FF5D290FCE2B}|NetPC\\NetPC.csproj|c:\\users\\zucek\\source\\repos\\netpc\\netpc\\data\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{011C3C0B-C232-30B6-4DE4-FF5D290FCE2B}|NetPC\\NetPC.csproj|solutionrelative:netpc\\data\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{011C3C0B-C232-30B6-4DE4-FF5D290FCE2B}|NetPC\\NetPC.csproj|c:\\users\\zucek\\source\\repos\\netpc\\netpc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{011C3C0B-C232-30B6-4DE4-FF5D290FCE2B}|NetPC\\NetPC.csproj|solutionrelative:netpc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Seed.cs",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\NetPC\\NetPC\\Data\\Seed.cs",
+              "RelativeDocumentMoniker": "NetPC\\Data\\Seed.cs",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\NetPC\\NetPC\\Data\\Seed.cs",
+              "RelativeToolTip": "NetPC\\Data\\Seed.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAawDEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T18:30:05.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Extension.cs",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\NetPC\\NetPC\\Data\\Extension.cs",
+              "RelativeDocumentMoniker": "NetPC\\Data\\Extension.cs",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\NetPC\\NetPC\\Data\\Extension.cs",
+              "RelativeToolTip": "NetPC\\Data\\Extension.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA9wA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T17:13:38.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\NetPC\\NetPC\\Program.cs",
+              "RelativeDocumentMoniker": "NetPC\\Program.cs",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\NetPC\\NetPC\\Program.cs",
+              "RelativeToolTip": "NetPC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T14:12:43.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\NetPC\\NetPC\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "NetPC\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\NetPC\\NetPC\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "NetPC\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAIAwwGoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-21T10:43:21.868Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

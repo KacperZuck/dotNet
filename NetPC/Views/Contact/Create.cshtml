@@ -1,0 +1,89 @@
+﻿@model NetPC.Data.CreateContactDto
+@Html.ValidationSummary()
+<h2>Dodaj kontakt</h2>
+
+<form asp-controller="Contact" asp-action="Create" method="post">
+    @Html.AntiForgeryToken()
+
+    <div>
+        <label>Imię</label>
+        <input asp-for="Name" name="Name" class="form-control" />
+    </div>
+
+    <div>
+        <label>Nazwisko</label>
+        <input asp-for="Surname" name="Surname" class="form-control" />
+    </div>
+
+    <div>
+        <label>Email</label>
+        <input asp-for="Email" name="Email" class="form-control" />
+    </div>
+
+    <div>
+        <label>Hasło</label>
+        <input asp-for="Password" name="Password" class="form-control" />
+    </div>
+
+    <div>
+        <label>Telefon</label>
+        <input asp-for="Phone" name="Phone" class="form-control" />
+    </div>
+
+    <div>
+        <label>Data urodzenia</label>
+        <input asp-for="Birth_Date" name="Birth_Date" type="date" class="form-control" />
+    </div>
+
+    <div>
+        <label>Kategoria</label>
+        <select id="categorySelect"
+                asp-for="Category"
+                name="Category"
+                class="form-control"
+                onchange="toggleFields()">
+
+            <option value="0">Służbowy</option>
+            <option value="1">Prywatny</option>
+            <option value="2">Inny</option>
+
+        </select>
+    </div>
+
+    <div id="companyField" style="display:none">
+        <label>Firma</label>
+        <select asp-for="Company" name="Company" class="form-control">
+            <option value="">-- wybierz --</option>
+            <option value="0">Szef</option>
+            <option value="1">Klient</option>
+            <option value="2">Pracownik</option>
+        </select>
+    </div>
+
+    <div id="otherField" style="display:none">
+        <label>Inna kategoria</label>
+        <input asp-for="OtherCategory" name="OtherCategory" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">
+        Zapisz
+    </button>
+</form>
+
+<br />
+<a href="/">Powrót</a>
+
+<script>
+    function toggleFields()
+    {
+        const val = parseInt(document.getElementById("categorySelect").value);
+
+        document.getElementById("companyField").style.display =
+            val === 0 ? "block" : "none";
+
+        document.getElementById("otherField").style.display =
+            val === 2 ? "block" : "none";
+    }
+
+    document.addEventListener("DOMContentLoaded", toggleFields);
+</script>

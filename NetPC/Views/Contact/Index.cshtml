@@ -1,0 +1,217 @@
+﻿@using NetPC.Models
+@model IEnumerable<NetPC.Models.Contact>
+
+<h1>Menedżer Kontaktów</h1>
+
+<hr />
+
+<!-- LOGIN -->
+<div class="container mt-3">
+
+    @if (TempData["LoginError"] != null)
+    {
+        <div class="alert alert-warning">
+            @TempData["LoginError"]
+        </div>
+    }
+
+    @if (Context.Session.GetString("UserEmail") != null)
+    {
+        <div class="text-end mb-3">
+            Witaj @Context.Session.GetString("UserEmail")
+            |
+            <a href="/Account/Logout" class="btn btn-danger btn-sm">
+                Wyloguj
+            </a>
+        </div>
+    }
+    else
+    {
+        <form method="post" action="/Account/Login">
+            @Html.AntiForgeryToken()
+
+            <input name="email" class="form-control mb-2" placeholder="Email" />
+            <input name="password" type="password" class="form-control mb-2" placeholder="Hasło" />
+
+            <button class="btn btn-primary">Zaloguj</button>
+        </form>
+    }
+</div>
+
+@if (Context.Session.GetString("UserEmail") != null)
+{
+    <a href="/Contact/Create" class="btn btn-primary mb-3">
+        Dodaj kontakt
+    </a>
+}
+
+<!-- LISTA -->
+<ul class="list-group">
+
+    @foreach (var c in Model)
+    {
+        <li class="list-group-item">
+
+            <details>
+                <summary style="cursor:pointer; font-weight:bold;">
+                    @c.Name @c.Surname
+                </summary>
+
+                <div class="mt-2" id="contact-@c.Id">
+                    <br>Name
+                    <input class="form-control mb-1" name="Name" value="@c.Name" />
+                    <br>Surname
+                    <input class="form-control mb-1" name="Surname" value="@c.Surname" />
+                    <br>Email
+                    <input class="form-control mb-1" name="Email" value="@c.Email" />
+                    <br>Password
+                    <input class="form-control mb-1" name="Password" value="@c.Password" />
+                    <br>Phone
+                    <input class="form-control mb-1" name="Phone" value="@c.Phone" />
+                    <br>Birth date
+                    <input class="form-control mb-1"
+                           type="date"
+                           name="Birth_Date"
+                           value="@c.Birth_Date.ToString("yyyy-MM-dd")" />
+                    <br>Category
+                    <select class="form-control mb-2"
+                            name="Category"
+                            onchange="changeCategory('@c.Id')">
+
+                        <option value="0" selected="@(c.Category == Categories.Służbowy)">
+                            Służbowy
+                        </option>
+
+                        <option value="1" selected="@(c.Category == Categories.Prywatny)">
+                            Prywatny
+                        </option>
+
+                        <option value="2" selected="@(c.Category == Categories.Inny)">
+                            Inny
+                        </option>
+
+                    </select>
+
+                    <div id="company-@c.Id"
+                         style="display:@(c.Category == Categories.Służbowy ? "block" : "none")">
+
+                        <select class="form-control mb-2" name="Company">
+                            <option value="0">Szef</option>
+                            <option value="1">Klient</option>
+                            <option value="2">Pracownik</option>
+                        </select>
+
+                    </div>
+
+                    <div id="other-@c.Id"
+                         style="display:@(c.Category == Categories.Inny ? "block" : "none")">
+
+                        <input class="form-control mb-2"
+                               name="OtherCategory"
+                               value="@c.OtherCategory" />
+
+                    </div>
+
+                    @if (Context.Session.GetString("UserEmail") != null)
+                    {
+                        <br>
+                        <button type="button"
+                                class="btn btn-success btn-sm"
+                                onclick="updateContact('@c.Id')">
+                            Zapisz
+                        </button>
+                        <button type="button"
+                                class="btn btn-danger btn-sm"
+                                onclick="deleteContact('@c.Id')">
+                            Usuń
+                        </button>
+                    }
+
+                </div>
+            </details>
+
+        </li>
+    }
+
+</ul>
+
+<!-- JS -->
+<script>
+
+    function changeCategory(id)
+    {
+        const box = document.getElementById("contact-" + id);
+
+        const category = parseInt(box.querySelector('[name="Category"]').value);
+
+        const company = document.getElementById("company-" + id);
+        const other = document.getElementById("other-" + id);
+
+        company.style.display = "none";
+        other.style.display = "none";
+
+        if (category === 0)
+            company.style.display = "block";
+
+        if (category === 2)
+            other.style.display = "block";
+    }
+
+    async function updateContact(id)
+    {
+        const box = document.getElementById("contact-" + id);
+        const data =
+        {
+            Id: id,
+            Name: box.querySelector('[name="Name"]').value,
+            Surname: box.querySelector('[name="Surname"]').value,
+            Email: box.querySelector('[name="Email"]')?.value?.trim() || "",
+            Password: box.querySelector('[name="Password"]').value,
+            Phone: parseInt(box.querySelector('[name="Phone"]').value) || 0,
+            Birth_Date: box.querySelector('[name="Birth_Date"]').value,
+            Category: parseInt(box.querySelector('[name="Category"]').value),
+            Company: parseInt(box.querySelector('[name="Company"]')?.value) || null,
+            OtherCategory: box.querySelector('[name="OtherCategory"]')?.value || null
+        };
+
+        const response = await fetch('/Contact/' + id,
+        {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data)
+        });
+
+        if (response.ok)
+        {
+        location.reload();
+        }
+        else{
+
+            alert("Błąd zapisu: " + response.status);
+            return;
+        }
+
+    }
+
+    async function deleteContact(id)
+    {
+        if (!confirm("Usunąć kontakt?"))
+            return;
+
+        const response = await fetch('/Contact/' + id,
+        {
+            method: 'DELETE'
+        });
+
+        if (response.ok)
+        {
+            location.reload();
+        }
+        else{
+
+            alert("Błąd usuniecia: " + response.status);
+            return;
+        }
+    }
+
+</script>
