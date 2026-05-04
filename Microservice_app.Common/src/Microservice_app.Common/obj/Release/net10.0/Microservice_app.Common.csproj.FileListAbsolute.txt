@@ -1,0 +1,13 @@
+C:\Users\zucek\Desktop\LSEG\Microservice_app.Common\src\Microservice_app.Common\bin\Release\net10.0\Microservice_app.Common.deps.json
+C:\Users\zucek\Desktop\LSEG\Microservice_app.Common\src\Microservice_app.Common\bin\Release\net10.0\Microservice_app.Common.dll
+C:\Users\zucek\Desktop\LSEG\Microservice_app.Common\src\Microservice_app.Common\bin\Release\net10.0\Microservice_app.Common.pdb
+C:\Users\zucek\Desktop\LSEG\Microservice_app.Common\src\Microservice_app.Common\obj\Release\net10.0\Microservice_app.Common.csproj.AssemblyReference.cache
+C:\Users\zucek\Desktop\LSEG\Microservice_app.Common\src\Microservice_app.Common\obj\Release\net10.0\Microservice_app.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zucek\Desktop\LSEG\Microservice_app.Common\src\Microservice_app.Common\obj\Release\net10.0\Microservice_app.Common.AssemblyInfoInputs.cache
+C:\Users\zucek\Desktop\LSEG\Microservice_app.Common\src\Microservice_app.Common\obj\Release\net10.0\Microservice_app.Common.AssemblyInfo.cs
+C:\Users\zucek\Desktop\LSEG\Microservice_app.Common\src\Microservice_app.Common\obj\Release\net10.0\Microservice_app.Common.csproj.CoreCompileInputs.cache
+C:\Users\zucek\Desktop\LSEG\Microservice_app.Common\src\Microservice_app.Common\obj\Release\net10.0\Microservice_app.Common.sourcelink.json
+C:\Users\zucek\Desktop\LSEG\Microservice_app.Common\src\Microservice_app.Common\obj\Release\net10.0\Microservice_app.Common.dll
+C:\Users\zucek\Desktop\LSEG\Microservice_app.Common\src\Microservice_app.Common\obj\Release\net10.0\refint\Microservice_app.Common.dll
+C:\Users\zucek\Desktop\LSEG\Microservice_app.Common\src\Microservice_app.Common\obj\Release\net10.0\Microservice_app.Common.pdb
+C:\Users\zucek\Desktop\LSEG\Microservice_app.Common\src\Microservice_app.Common\obj\Release\net10.0\ref\Microservice_app.Common.dll
