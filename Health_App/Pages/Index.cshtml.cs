@@ -8,7 +8,7 @@ using System.Security.Claims;
 
 public class IndexModel : PageModel
 {
-    [BindProperty] // Ten atrybut mówi: "weź dane z formularza i włóż je tutaj"
+    [BindProperty] 
     public UserDto LoginData { get; set; }
 
     private readonly IUserService<User, UserDto> _userService;
@@ -30,26 +30,20 @@ public class IndexModel : PageModel
 
         var claims = new List<Claim>
         {
-            // ClaimTypes.Name zazwyczaj przechowuje unikalny login/email
             new Claim(ClaimTypes.Name, user.email),
-            // ClaimTypes.NameIdentifier to zazwyczaj ID z bazy danych
             new Claim(ClaimTypes.NameIdentifier, user.id.ToString()),
-            // Możesz dodać własne dane, np. imię
             new Claim("UserName", user.name)
         };
 
-        // 2. Stwórz tożsamość (Identity) używając schematu ciasteczek
         var claimsIdentity = new ClaimsIdentity(
             claims, CookieAuthenticationDefaults.AuthenticationScheme);
 
-        // 3. Opcjonalne ustawienia ciasteczka (np. czy ma pamiętać użytkownika po zamknięciu przeglądarki)
         var authProperties = new AuthenticationProperties
         {
-            IsPersistent = true, // "Zapamiętaj mnie"
-            ExpiresUtc = DateTimeOffset.UtcNow.AddHours(2) // Czas życia ciacha
+            IsPersistent = true,
+            ExpiresUtc = DateTimeOffset.UtcNow.AddHours(2) 
         };
 
-        // 4. WYGENERUJ CIASTECZKO i zaloguj użytkownika
         await HttpContext.SignInAsync(
             CookieAuthenticationDefaults.AuthenticationScheme,
             new ClaimsPrincipal(claimsIdentity),

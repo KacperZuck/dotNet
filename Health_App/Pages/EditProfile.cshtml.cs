@@ -22,7 +22,6 @@ namespace Health_App.Pages
 
         public async Task<IActionResult> OnGetAsync()
         {
-            // Pobieramy ID zalogowanego użytkownika z ciasteczka
             var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             if (string.IsNullOrEmpty(userIdClaim)) return RedirectToPage("/Index");
 
@@ -41,11 +40,9 @@ namespace Health_App.Pages
                 return Page();
             }
 
-            // Używamy metody Update z Twojego BaseService
             await _userService.Update(UserData);
 
             TempData["SuccessMessage"] = "Zmiany zostały zapisane pomyślnie!";
-            // Po zapisie odświeżamy stronę lub wracamy do panelu
             return RedirectToPage();
         }
     }

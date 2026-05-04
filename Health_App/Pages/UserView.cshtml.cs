@@ -20,10 +20,7 @@ namespace Health_App.Pages
 
         public async Task OnGetAsync()
         {
-            // Pobieramy imię z ciasteczka (Claim "UserFullName", który dodaliśmy przy SignIn)
             _currentUserName = User.FindFirst("UserName")?.Value ?? "Użytkowniku";
-
-            // Pobieramy wszystkich użytkowników do tabeli
             _usersList = await _userService.GetAll();
         }
     }

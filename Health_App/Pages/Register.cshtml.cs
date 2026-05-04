@@ -28,17 +28,17 @@ namespace Health_App.Pages
             public string email { get; set; }
 
             [Required(ErrorMessage = "Data urodzenia jest wymagana")]
-            [DataType(System.ComponentModel.DataAnnotations.DataType.Date)] // To wygeneruje kalendarz w przeglądarce
+            [DataType(System.ComponentModel.DataAnnotations.DataType.Date)]
             public DateOnly birth_date { get; set; }
 
             [Required(ErrorMessage = "Hasło jest wymagane")]
-            [DataType(System.ComponentModel.DataAnnotations.DataType.Password)] // Poprawione: Password (nie pasword)
+            [DataType(System.ComponentModel.DataAnnotations.DataType.Password)]
             [MinLength(6, ErrorMessage = "Hasło musi mieć minimum 6 znaków")]
-            public string pasword { get; set; } // Nazwa Twojego pola w DTO
+            public string pasword { get; set; }
 
             [Required(ErrorMessage = "Musisz powtórzyć hasło")]
             [DataType(System.ComponentModel.DataAnnotations.DataType.Password)]
-            [Compare("pasword", ErrorMessage = "Hasła nie są identyczne")] // Musi pasować do nazwy pola powyżej
+            [Compare("pasword", ErrorMessage = "Hasła nie są identyczne")]
             public string repPassword { get; set; }
         }
 

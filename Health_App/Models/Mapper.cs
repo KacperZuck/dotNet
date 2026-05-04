@@ -11,15 +11,10 @@ namespace Health_App.Models
     {
         public MappingProfile()
         {
-            // Reguła: Z Encji do DTO (to co robiliśmy wcześniej)
             CreateMap<User, UserDto>().ReverseMap();
 
-            // Reguła: Z DTO do Encji (Reverse Mapping)
-            // To jest właśnie to miejsce, o które pytasz
             CreateMap<UserDto, User>()
                 .ForMember(dest => dest.id, opt => opt.Ignore());
-            // Ignorujemy Id, żeby AutoMapper nie próbował nadpisać 
-            // klucza głównego w bazie danych wartością z DTO.
         }
     }
 }

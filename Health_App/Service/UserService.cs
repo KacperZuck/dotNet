@@ -9,14 +9,12 @@ namespace Health_App.Service
         where TEntity : User
         where TDto : UserDto
     {
-        //private readonly IUserRepository<TEntity> _userRepository;
         private readonly IMapper _mapper;
 
         public UserService(IUserRepository<TEntity> userRepository, IMapper m)
             : base((Repository<TEntity>)userRepository, m) {
-           // _userRepository = userRepository;
             _mapper = m;
-        } // Przekazujemy zależności do bazy
+        } 
        
         public async Task<TDto?> Login(string email, string pasword)
         {
@@ -35,5 +33,3 @@ namespace Health_App.Service
 
     }
 }
-
-// builder.Services.AddAutoMapper(typeof(MappingProfile));

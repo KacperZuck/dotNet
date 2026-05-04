@@ -1,9 +1,6 @@
 ﻿using Health_App.Common;
-using Health_App.Data; // To musi tu być!
+using Health_App.Data; 
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace Health_App.Common
 {

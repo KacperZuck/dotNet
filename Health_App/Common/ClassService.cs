@@ -11,7 +11,7 @@ namespace Common
         where TEntity : class, IEntity
         where TDto : class, IDto
     {
-        protected readonly Health_App.Common.Repository<TEntity> _repository; // Tu lepiej użyć ogólnego IRepository<T>
+        protected readonly Health_App.Common.Repository<TEntity> _repository; 
         protected readonly IMapper _mapper;
 
         protected ClassService(Health_App.Common.Repository<TEntity> repository, IMapper mapper)

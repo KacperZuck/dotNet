@@ -16,7 +16,6 @@ namespace Health_App.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Seedowanie danych - dodajemy startowego użytkownika
             modelBuilder.Entity<User>().HasData(
                 new User
                 {
@@ -24,7 +23,7 @@ namespace Health_App.Data
                     name = "Admin",
                     surname = "Admin",
                     email = "admin@health.pl",
-                    pasword = "admin123", // Warto potem to zahaszować!
+                    pasword = "admin123",
                     birth_date = new DateOnly(1990, 1, 1)
                 },
                 new User

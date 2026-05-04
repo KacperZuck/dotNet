@@ -1,90 +1,102 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\zucek\\source\\repos\\Health_App\\",
+  "WorkspaceRootPath": "C:\\Users\\zucek\\source\\repos\\Health_App_\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\pages\\userview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\userview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\pages\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\pages\\editprofile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\editprofile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\pages\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\pages\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\models\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\models\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\common\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\common\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\pages\\userview.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\pages\\userview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\userview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\pages\\userview.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\userview.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app\\health_app\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\pages\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\pages\\editprofile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\editprofile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\common\\classservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\common\\classservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\common\\iconfigdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\common\\iconfigdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\common\\idto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\common\\idto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\common\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\common\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\common\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\common\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\common\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\common\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\data\\configdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\data\\configdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\data\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\data\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\pages\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|c:\\users\\zucek\\source\\repos\\health_app_\\health_app\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED2F7EF6-F031-98E1-2E7C-CC9C069FD7B2}|Health_App\\Health_App.csproj|solutionrelative:health_app\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 152,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,277 +114,314 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Health_App\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Health_App\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-04T10:45:07.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "Health_App\\Pages\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\Register.cshtml.cs",
-              "RelativeToolTip": "Health_App\\Pages\\Register.cshtml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T10:05:50.662Z"
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Health_App\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Health_App\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T15:54:24.172Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EditProfile.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\EditProfile.cshtml.cs",
-              "RelativeDocumentMoniker": "Health_App\\Pages\\EditProfile.cshtml.cs",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\EditProfile.cshtml.cs",
-              "RelativeToolTip": "Health_App\\Pages\\EditProfile.cshtml.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCcAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T18:49:16.32Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EditProfile.cshtml",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\EditProfile.cshtml",
-              "RelativeDocumentMoniker": "Health_App\\Pages\\EditProfile.cshtml",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\EditProfile.cshtml",
-              "RelativeToolTip": "Health_App\\Pages\\EditProfile.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABwAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-29T18:48:58.609Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "UserView.cshtml",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\UserView.cshtml",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\UserView.cshtml",
               "RelativeDocumentMoniker": "Health_App\\Pages\\UserView.cshtml",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\UserView.cshtml",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\UserView.cshtml",
               "RelativeToolTip": "Health_App\\Pages\\UserView.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-29T09:33:56.987Z",
+              "WhenOpened": "2026-05-04T10:39:58.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IService.cs",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Common\\IService.cs",
+              "RelativeDocumentMoniker": "Health_App\\Common\\IService.cs",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Common\\IService.cs",
+              "RelativeToolTip": "Health_App\\Common\\IService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:41:02.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Health_App\\Pages\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\Logout.cshtml",
+              "RelativeToolTip": "Health_App\\Pages\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-04T10:40:01.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Mapper.cs",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Models\\Mapper.cs",
-              "RelativeDocumentMoniker": "Health_App\\Models\\Mapper.cs",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Models\\Mapper.cs",
-              "RelativeToolTip": "Health_App\\Models\\Mapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "Health_App\\Pages\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\Logout.cshtml.cs",
+              "RelativeToolTip": "Health_App\\Pages\\Logout.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T23:47:13.548Z"
+              "WhenOpened": "2026-05-04T10:40:39.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\Register.cshtml",
-              "RelativeDocumentMoniker": "Health_App\\Pages\\Register.cshtml",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\Register.cshtml",
-              "RelativeToolTip": "Health_App\\Pages\\Register.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-29T09:32:52.689Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "Health_App\\Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Service\\UserService.cs",
-              "RelativeToolTip": "Health_App\\Service\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T20:57:00.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Logout.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\Logout.cshtml.cs",
-              "RelativeDocumentMoniker": "Health_App\\Pages\\Logout.cshtml.cs",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\Logout.cshtml.cs",
-              "RelativeToolTip": "Health_App\\Pages\\Logout.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T21:40:46.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Common\\Repository.cs",
-              "RelativeDocumentMoniker": "Health_App\\Common\\Repository.cs",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Common\\Repository.cs",
-              "RelativeToolTip": "Health_App\\Common\\Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T21:37:38.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Program.cs",
-              "RelativeDocumentMoniker": "Health_App\\Program.cs",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Program.cs",
-              "RelativeToolTip": "Health_App\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAWwCEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T15:54:29.369Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "UserView.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\UserView.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\UserView.cshtml.cs",
               "RelativeDocumentMoniker": "Health_App\\Pages\\UserView.cshtml.cs",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\UserView.cshtml.cs",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\UserView.cshtml.cs",
               "RelativeToolTip": "Health_App\\Pages\\UserView.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T17:24:25.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Health_App\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Health_App\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAmwC0AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-29T17:25:38.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\appsettings.json",
-              "RelativeDocumentMoniker": "Health_App\\appsettings.json",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\appsettings.json",
-              "RelativeToolTip": "Health_App\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-29T17:54:18.391Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:40:11.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Health_App\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Health_App\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-29T21:41:10.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Health_App\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Health_App\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T15:54:22.912Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Health_App\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Models\\User.cs",
-              "RelativeToolTip": "Health_App\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Common\\IRepository.cs",
+              "RelativeDocumentMoniker": "Health_App\\Common\\IRepository.cs",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Common\\IRepository.cs",
+              "RelativeToolTip": "Health_App\\Common\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T09:43:36.238Z"
+              "WhenOpened": "2026-05-04T10:41:03.796Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_Layout.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\Shared\\_Layout.cshtml.css",
-              "RelativeDocumentMoniker": "Health_App\\Pages\\Shared\\_Layout.cshtml.css",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\Shared\\_Layout.cshtml.css",
-              "RelativeToolTip": "Health_App\\Pages\\Shared\\_Layout.cshtml.css",
+              "DocumentIndex": 7,
+              "Title": "EditProfile.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\EditProfile.cshtml.cs",
+              "RelativeDocumentMoniker": "Health_App\\Pages\\EditProfile.cshtml.cs",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\EditProfile.cshtml.cs",
+              "RelativeToolTip": "Health_App\\Pages\\EditProfile.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-29T17:29:00.81Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:40:44.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\EditProfile.cshtml",
+              "RelativeDocumentMoniker": "Health_App\\Pages\\EditProfile.cshtml",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\EditProfile.cshtml",
+              "RelativeToolTip": "Health_App\\Pages\\EditProfile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-04T10:40:46.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Common\\IEntity.cs",
+              "RelativeDocumentMoniker": "Health_App\\Common\\IEntity.cs",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Common\\IEntity.cs",
+              "RelativeToolTip": "Health_App\\Common\\IEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:41:04.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IDto.cs",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Common\\IDto.cs",
+              "RelativeDocumentMoniker": "Health_App\\Common\\IDto.cs",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Common\\IDto.cs",
+              "RelativeToolTip": "Health_App\\Common\\IDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:41:05.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IConfigDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Common\\IConfigDbContext.cs",
+              "RelativeDocumentMoniker": "Health_App\\Common\\IConfigDbContext.cs",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Common\\IConfigDbContext.cs",
+              "RelativeToolTip": "Health_App\\Common\\IConfigDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:41:06.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClassService.cs",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Common\\ClassService.cs",
+              "RelativeDocumentMoniker": "Health_App\\Common\\ClassService.cs",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Common\\ClassService.cs",
+              "RelativeToolTip": "Health_App\\Common\\ClassService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwA0AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:41:07.794Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Health_App\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Health_App\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-29T17:25:37.545Z"
+              "Title": "ConfigDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Data\\ConfigDbContext.cs",
+              "RelativeDocumentMoniker": "Health_App\\Data\\ConfigDbContext.cs",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Data\\ConfigDbContext.cs",
+              "RelativeToolTip": "Health_App\\Data\\ConfigDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:40:55.506Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\Error.cshtml",
-              "RelativeDocumentMoniker": "Health_App\\Pages\\Error.cshtml",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\Error.cshtml",
-              "RelativeToolTip": "Health_App\\Pages\\Error.cshtml",
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Data\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Health_App\\Data\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Data\\IUserRepository.cs",
+              "RelativeToolTip": "Health_App\\Data\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-29T17:25:19.963Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:40:53.835Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Health_App\\Pages\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\Privacy.cshtml",
-              "RelativeToolTip": "Health_App\\Pages\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-28T15:54:27.1Z"
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Data\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Health_App\\Data\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Data\\UserRepository.cs",
+              "RelativeToolTip": "Health_App\\Data\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:40:51.414Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Health_App\\Pages\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "Health_App\\Pages\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-28T15:54:24.172Z"
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Models\\UserDto.cs",
+              "RelativeDocumentMoniker": "Health_App\\Models\\UserDto.cs",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Models\\UserDto.cs",
+              "RelativeToolTip": "Health_App\\Models\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:40:49.819Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Health_App\\Pages\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\_ViewStart.cshtml",
-              "RelativeToolTip": "Health_App\\Pages\\_ViewStart.cshtml",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Health_App\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Models\\User.cs",
+              "RelativeToolTip": "Health_App\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-28T15:54:22.912Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "32f3dbab-54a1-4943-ba87-d2b47b25e025",
-        "Display": 0,
-        "X": 260,
-        "Y": 162,
-        "Width": 1041,
-        "Height": 1129,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:40:49.001Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Health_App\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Pages\\Index.cshtml",
-              "RelativeToolTip": "Health_App\\Pages\\Index.cshtml",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Health_App\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Health_App\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:40:19.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Health_App\\Pages\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\Register.cshtml.cs",
+              "RelativeToolTip": "Health_App\\Pages\\Register.cshtml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:40:14.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Health_App\\Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\zucek\\source\\repos\\Health_App_\\Health_App\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "Health_App\\Pages\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-29T21:41:10.955Z",
+              "WhenOpened": "2026-04-28T15:54:27.1Z",
               "EditorCaption": ""
             }
           ]
