@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "dgSpecHash": "XhLbsc3tIHQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Health_App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zucek\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\zucek\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\zucek\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.7\\microsoft.data.sqlite.core.10.0.7.nupkg.sha512",
+    "C:\\Users\\zucek\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.7\\microsoft.entityframeworkcore.10.0.7.nupkg.sha512",
+    "C:\\Users\\zucek\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.7\\microsoft.entityframeworkcore.abstractions.10.0.7.nupkg.sha512",
+    "C:\\Users\\zucek\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.7\\microsoft.entityframeworkcore.analyzers.10.0.7.nupkg.sha512",
+    "C:\\Users\\zucek\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\10.0.7\\microsoft.entityframeworkcore.relational.10.0.7.nupkg.sha512",
+    "C:\\Users\\zucek\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\10.0.7\\microsoft.entityframeworkcore.sqlite.core.10.0.7.nupkg.sha512",
+    "C:\\Users\\zucek\\.nuget\\packages\\microsoft.extensions.dependencymodel\\10.0.7\\microsoft.extensions.dependencymodel.10.0.7.nupkg.sha512",
+    "C:\\Users\\zucek\\.nuget\\packages\\sourcegear.sqlite3\\3.50.4.2\\sourcegear.sqlite3.3.50.4.2.nupkg.sha512",
+    "C:\\Users\\zucek\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\3.0.2\\sqlitepclraw.bundle_e_sqlite3.3.0.2.nupkg.sha512",
+    "C:\\Users\\zucek\\.nuget\\packages\\sqlitepclraw.config.e_sqlite3\\3.0.2\\sqlitepclraw.config.e_sqlite3.3.0.2.nupkg.sha512",
+    "C:\\Users\\zucek\\.nuget\\packages\\sqlitepclraw.core\\3.0.2\\sqlitepclraw.core.3.0.2.nupkg.sha512",
+    "C:\\Users\\zucek\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\3.0.2\\sqlitepclraw.provider.e_sqlite3.3.0.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "message": "Wykryta wersja pakietu jest poza ograniczeniami zależności: element AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 wymaga wersji AutoMapper (= 12.0.1), ale rozpoznano wersję AutoMapper 13.0.1.",
+      "projectPath": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Health_App.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Health_App.csproj",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Pakiet „AutoMapper” 13.0.1 ma znane wysoka luki w zabezpieczeniach o ważności, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
+      "projectPath": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Health_App.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\zucek\\source\\repos\\Health_App\\Health_App\\Health_App.csproj",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+﻿@page
+@model Health_App.Pages.RegisterModel
+@{
+    ViewData["Title"] = "Rejestracja";
+}
+<div class="container mt5">
+    <h2>Utwórz konto</h2>
+    <form method="post">
+        <div class="mb-3">
+            <label asp-for="Input.name">Imię</label>
+            <input asp-for="Input.name" class="form-control" />
+            <span asp-validation-for="Input.name" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Input.email">Email</label>
+            <input asp-for="Input.email" class="form-control" />
+            <span asp-validation-for="Input.email" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Input.birth_date">Data urodzenia</label>
+            <input asp-for="Input.birth_date" type="date" class="form-control" />
+            <span asp-validation-for="Input.birth_date" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Input.pasword">Hasło</label>
+            <input asp-for="Input.pasword" type="password" class="form-control" />
+            <span asp-validation-for="Input.pasword" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Input.repPassword">Powtórz hasło</label>
+            <input asp-for="Input.repPassword" type="password" class="form-control" />
+            <span asp-validation-for="Input.repPassword" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Zarejestruj</button>
+    </form>
+    <p<a asp-page="/Index">Powrót</a></p>
+</div>
+@section Scripts {
+    @* To sprawia, że walidacja działa "na żywo" w przeglądarce, zanim wyślesz formularz *@
+    <partial name="_ValidationScriptsPartial" />
+}

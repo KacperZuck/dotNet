@@ -1,0 +1,80 @@
+﻿@page "/EditProfile"
+@model Health_App.Pages.EditProfileModel
+@{
+    ViewData["Title"] = "Edytuj profil";
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+@if( TempData["UnvalidMessage"]!= null)
+{
+    <div class="alert alert-info alert-dismissible fade show" role="alert">
+        @TempData["UnvalidMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+
+
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Zmień swoje dane</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="UserData.id" />
+
+                        <div class="mb-3">
+                            <label asp-for="UserData.name" class="form-label">Imię</label>
+                            <input asp-for="UserData.name" class="form-control" />
+                            <span asp-validation-for="UserData.name" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="UserData.surname" class="form-label">Nazwisko</label>
+                            <input asp-for="UserData.surname" class="form-control" />
+                            <span asp-validation-for="UserData.surname" class="text-danger"></span>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label asp-for="UserData.email" class="form-label">Email</label>
+                            <input asp-for="UserData.email" class="form-control" />
+                            <span asp-validation-for="UserData.email" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="UserData.pasword" class="form-label">Nowe hasło</label>
+                            <input asp-for="UserData.pasword" class="form-control" />
+                            <span asp-validation-for="UserData.pasword" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="UserData.birth_date" class="form-label">Data urodzenia</label>
+                            <input asp-for="UserData.birth_date" type="date" class="form-control" />
+                            <span asp-validation-for="UserData.birth_date" class="text-danger"></span>
+                        </div>
+
+                        <input type="hidden" asp-for="UserData.pasword" />
+
+                        <div class="d-flex justify-content-between">
+                            <a asp-page="/UserView" class="btn btn-secondary">Anuluj</a>
+                            <button type="submit" class="btn btn-success">Zapisz zmiany</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
